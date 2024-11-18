@@ -39,9 +39,9 @@ public class GuessTheNumber {
 					System.out.println("Points for this round: " + (maxAttempts - attempts + 1));
 					break;
 				} else if (userGuess < randomNumber) {
-					System.out.println("Your guess is lower than the number.");
+					System.out.println("Your guess is lower than the num.");
 				} else {
-					System.out.println("Your guess is higher than the number.");
+					System.out.println("Your guess is higher than the num.");
 				}
 
 				System.out.println("Remaining attempts: " + (maxAttempts - attempts));
@@ -64,9 +64,9 @@ public class GuessTheNumber {
 		// Get user inputs for rounds and max attempts
 		
 		System.out.println("Welcome to Guess the Number Game!");
-		System.out.print("Enter the number of rounds you want to play: ");
+		System.out.print("Enter the num of rounds you want to play: ");
 		int rounds = scanner.nextInt();
-		System.out.print("Enter the maximum number of attempts per round: ");
+		System.out.print("Enter the maximum num of attempts per round: ");
 		int maxAttempts = scanner.nextInt();
 
 		// Start the game
